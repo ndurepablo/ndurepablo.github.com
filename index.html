@@ -10,10 +10,14 @@
     <meta name="author" content="Awaiken Theme">
 	<!-- Page Title -->
 	<title>Pablo Ndure</title>
+	<link rel="icon" type="image/x-icon" href="/icon/code-square.svg">
+
 	<!-- Google Fonts css-->
 	<link href="https://fonts.googleapis.com/css?family=Berkshire+Swash%7CRoboto:300,400,400i,500,500i,700,700i,900" rel="stylesheet">
 	<!-- Bootstrap css -->
 	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="/css/gallery.css" rel="stylesheet" media="screen">
+
 	<!-- Font Awesome icon css-->
 	<link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
 	<link href="css/flaticon.css" rel="stylesheet" media="screen">
@@ -39,13 +43,13 @@
 <body data-spy="scroll" data-target="#main-navbar" data-offset="75">
 	
 	<!-- Preloader starts -->
-	<div class="preloader">
+	<!-- <div class="preloader">
 		<div class="loader">
-			<div class="diamond"></div>
-			<div class="diamond"></div>
-			<div class="diamond"></div>
+			<div class="bi bi-code-square"></div>
+			<div class="bi bi-code-square"></div>
+			<div class="bi bi-code-square"></div>
 		</div>
-	</div>
+	</div> -->
 	<!-- Preloader Ends -->
 	
 	<!-- Header Section Start -->
@@ -61,11 +65,12 @@
 				<!-- Navigation Starts -->
 				<ul class="navbar-nav ml-auto" id="main-menu">
 					<li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
 					<!-- <li class="nav-item"><a class="nav-link" href="#about">About</a></li> -->
-					<li class="nav-item"><a class="nav-link" href="https://web-production-8384.up.railway.app/" target="_blank">Blog</a></li>
 					<!-- <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li> -->
 					<!-- <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li> -->
 					<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+					<li class="nav-item"><a class="nav-link" href="https://web-production-8384.up.railway.app/" target="_blank">Blog</a></li>
 				</ul>
 				<!-- Navigation Ends -->				
 				
@@ -91,7 +96,7 @@
 							</span>
 						</h2>
 						
-						<a href="#" class="btn-download">Download CV</a>
+						<a href="/dl/Pablo-Ndure-ES.pdf" class="btn-download" download>Download CV</a>
 					</div>
 					<!-- Banner Content End -->
 				</div>
@@ -100,6 +105,37 @@
 	</div>
 	<!-- Banner Slider Section ends -->
 
+	<!-- Image gallery -->
+	<section class="portfolio" id="portfolio">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<!-- Section title start -->
+					<div class="portfolio-custom">
+						<h2>Portfolio</h2>
+					</div>
+					<!-- Section title end -->
+				</div>
+			</div>
+			<div class="row">
+			  <div class="column">
+				<a href="https://vorterixsantarosa.com/" target="_blank">
+					<img src="/media/Logo-VTX-22-HORIZONTAL-BLANCO-1536x864.png" />
+				</a>
+			  </div>
+			  <div class="column">
+				<a href="https://eamoda.com.ar/" target="_blank">
+					<img src="/media/ealogo-bw.png">
+				</a>
+			  </div>
+			  <div class="column">
+				<a href="http://porjujuy.com.ar/" target="_blank">
+					<img src="/media/porjuju-bw.png" />
+				</a>
+			  </div>
+			</div>
+		  </div>	
+	</section>
 
 	<!-- Contact us Section Starts -->
 	<section class="contactus" id="contact">
@@ -141,7 +177,7 @@
 								<div class="col-md-12 col-sm-12 text-center">
 									<button type="submit" class="btn-contact">Contact Now</button>
 
-									<input type="hidden" name="_next" value="https://ndurepablo.github.io/">
+									<input type="hidden" name="_next" value="https://ndurepablo.github.io/#contact">
 									<input type="hidden" name="_captcha" value="false">
 
 								</div>
@@ -219,6 +255,10 @@
 	</footer>
 	<!-- Footer Section Ends -->
 	
+
+
+
+
 	<!-- Jquery Library File -->
 	<script src="js/jquery-1.12.4.min.js"></script>
 	<!-- Bootstrap js file -->
