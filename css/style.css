@@ -1,0 +1,30 @@
+body {
+    background: black;
+    color: white
+}
+
+.resume{
+  padding: 100px 0;
+}
+
+.resume-description {
+  color: white !important;
+}
+.resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #0e6b0e;
+    border: 2px solid  #0e6b0e;
+  }
+
+.resume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid rgba(255, 255, 255, 0.2);
+    position: relative;
+  }
